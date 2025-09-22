@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["dist"],
+  "exec": "dotenvx run -f .env.local -- ts-node src/index.ts"
+}

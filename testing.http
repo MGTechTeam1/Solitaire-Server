@@ -1,0 +1,16 @@
+### POST request to example server
+PATCH http://localhost:3000/api/v1/update-point-statistics/EA606BFF57F82729
+Content-Type: application/json
+Authorization: Bearer NHxVTGNoa0NIZ0VXL1RtbVdGN3l6QUlXbmhqYnlGMWpLcGJBRTFNaldVdW9zPXx7ImkiOiIyMDI1LTA5LTE3VDAyOjAzOjQ5WiIsImlkcCI6IkN1c3RvbSIsImUiOiIyMDI1LTA5LTE4VDAyOjAzOjQ5WiIsImZpIjoiMjAyNS0wOS0xN1QwMjowMzo0OVoiLCJ0aWQiOiJ4azJ3M05iOTd6VSIsImlkaSI6ImUxM2RkY2I4MTVlMzkxNTMxNzcyMWJlMGU4NTE3MTVlYmQwMTViYmEiLCJoIjoiaW50ZXJuYWwiLCJlYyI6InRpdGxlX3BsYXllcl9hY2NvdW50IUUyMjkyNDIzMDk4RkJCMUYvN0M0MjcvRUE2MDZCRkY1N0Y4MjcyOS9BQkMxMzBCODJBODU2MzgyLyIsImVpIjoiQUJDMTMwQjgyQTg1NjM4MiIsImV0IjoidGl0bGVfcGxheWVyX2FjY291bnQifQ==
+
+{
+  "point": -1500
+}
+###
+
+###
+POST http://localhost:3000/api/v1/reset-leaderboard
+Content-Type: application/json
+
+{}
+###
